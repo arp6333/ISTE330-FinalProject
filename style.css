@@ -1,0 +1,147 @@
+body{
+    font-family: Verdana;
+    background-color: #fff3e6;
+}
+
+.avatar{
+	width: 250px;
+	height: 100px;
+}
+
+.loginTitle{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.loginLogger{
+	text-align: center;
+}
+
+.imgcontainer{
+	text-align: center;
+}
+
+.newProject{
+    border: 1px solid black;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    background-color: white;
+}
+
+.lbutton {
+    float: right;
+    background-color: #ff8000;
+}
+
+input{
+    margin: 10px;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: #ffdab3;
+    box-shadow: black 5px;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 14px;
+    margin: 0px
+    text-decoration: none;
+    font-size: 17px;
+    text-decoration: none;
+
+}
+
+.topnav a:hover{
+    background-color: #ff6600;
+    color: black;
+    text-decoration: none;
+}
+
+.topnav a.active{
+    background-color: #ff8000;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+input[type=submit]{
+    width: auto;
+    height: 29px;
+    color: white;
+    background-color: #ff8000;
+
+}
+
+.searcher{
+	display: block;
+	text-align: center;
+}
+
+.searcher .search-container button {
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    background-color: #ff8000;
+}
+
+.searcher .search-container button:hover {
+    background: #ff8000;
+}
+
+@media screen and (max-width: 600px) {
+    .searcher .search-container {
+        float: none;
+    }
+    .searcher a, .searcher input[type=text], .searcher .search-container button {
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+    .searcher input[type=text] {
+        border: 1px solid #ccc;  
+    }
+}
+
+.sText{
+	width: 400px;
+	height:50px;
+}
+
+h2{
+	text-align: center;
+
+}
+
+input[type="radio"]{
+	vertical-align: middle;	
+}
+
+.searchTitle{
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+	padding-right: 75px;
+}
+
+.message{
+    background-color: white;
+    background-size: inherit;
+    text-align: center;
+    margin: auto;
+}
